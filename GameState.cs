@@ -18,6 +18,15 @@ namespace IngeniousBeastCreator
             this.HeartPoints = 5;
             this.Beasts = new List<Beast>();
         }
+
+        public void Save()
+        {
+        }
+
+        public static GameState Load()
+        {
+
+        }
     }
 }
 
